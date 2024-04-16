@@ -1,4 +1,86 @@
 .section {
+  width: 100%;
+  padding: 0px 80px;
+  background-color: #F7F7F8;
+}
+/*------------------- Benefits -----------------*/
+.section-container {
+  /*Utilities*/
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  gap: 8rem;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+.benefits {
+  height: 114.2rem;
+}
+.section-header {
+  /*Utilities*/
+  display: flex;
+  width: 100%;
+  height: 13.2rem;
+}
+.section-header-description {
+    /*Utilities*/
+  width: 75%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.section-header-description h1{
+  font-size: 4.8rem;
+  font-weight: 600;
+  color: #262626;
+  line-height: 7.2rem;
+}
+.section-header-description p{
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #59595A;
+  line-height: 2.7rem;
+}
+.section-header-viewBtn {
+    /*Utilities*/
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.viewBtn{
+    /*Utilities*/
+    width: 12rem;
+    height: 6.3rem;
+    border: 0.1rem solid #F1F1F3;
+    border-radius: 0.8rem;
+    background-color: #fff;
+    padding: 18px, 24px, 18px, 24px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.7rem;
+    text-align: center;
+}
+/*-------------- benefits - cards--------------*/
+.section-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
     width: 100%;
-    padding: 0px 80px;
+    height: 93rem;
+}
+.benefit-card{
+    border-radius: 1.2rem;
+    padding: 5rem;
+    gap: 5rem;
+    display: flex;
+    background: #FFFFFF;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.benefit-card-num{
+    font-size: 8rem;
+    font-weight: 700;
+    line-height: 2.4rem;
 }
