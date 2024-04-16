@@ -33,7 +33,7 @@ section.nahhum {
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
-    gap: 24vw;
+    gap: 100px;
 }
 
 .Our-Testimonials .main-description .description,
@@ -50,7 +50,7 @@ section.nahhum {
 .Our-Pricing .main-description p {
     color: #262626;
     font-weight: 600;
-    font-size: 3vw;
+    font-size: 48px;
     padding: 1vh 0px;
 }
 
@@ -63,11 +63,11 @@ section.nahhum {
 .Our-Testimonials .main-description button {
     background-color: #FCFCFD;
     border: 1px #F1F1F3 solid;
-    font-size: 0.8vw;
+    font-size: 18px;
     color: #262626;
     padding: 13px 17px;
     border-radius: 8px;
-    width: 4vw;
+    width: 120px;
     cursor: pointer;
 }
 
