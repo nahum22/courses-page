@@ -3,8 +3,181 @@ section.nahhum {
 }
 
 .section {
-  width: 100%;
+  /* width: 100%; */
   padding: 0px 80px;
+  background-color: #f7f7f8;
+}
+.daniel{
+    display: flex;
+    flex-direction: column;
+    gap: 15rem;
+}
+/*------------------- Benefits -----------------*/
+.section-container {
+  /*Utilities*/
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 8rem;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+.section-header {
+  /*Utilities*/
+  display: flex;
+  width: 100%;
+  height: 13.2rem;
+}
+.section-description {
+  /*Utilities*/
+  width: 75%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.section-description h1 {
+  font-size: 4.8rem;
+  font-weight: 600;
+  color: #262626;
+  line-height: 7.2rem;
+}
+.section-description p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #59595a;
+  line-height: 2.7rem;
+}
+.section-viewBtn {
+  /*Utilities*/
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.viewBtn {
+  /*Utilities*/
+  width: 12rem;
+  height: 6.3rem;
+  border: 0.1rem solid #f1f1f3;
+  border-radius: 0.8rem;
+  background-color: #fff;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2.7rem;
+  text-align: center;
+}
+/*-------------- benefits - cards--------------*/
+.benefit-section-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  width: 100%;
+  height: 93rem;
+}
+.benefit-card {
+    /*Utilities*/
+  border-radius: 1.2rem;
+  padding: 5rem;
+  gap: 5rem;
+  display: flex;
+  background: #ffffff;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.benefit-card-num {
+    /*Utilities*/
+  font-size: 8rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+}
+.card-content {
+    /*Utilities*/
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+.card-content h1 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #333333;
+  line-height: 3.6rem;
+}
+.card-content p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #4c4c4d;
+  line-height: 2.7rem;
+}
+.benefit-card-arrowBtn {
+    /*Utilities*/
+  width: 5.4rem;
+  height: 5.4rem;
+  padding: 2rem;
+  border-radius: 0.8rem;
+  border: 0.1rem solid #f1f1f3;
+  background-color: #fcfcfd;
+  cursor: pointer;
+}
+/*--------------------Our-courses--------------------*/
+.our-courses-section-cards{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     grid-template-rows: repeat(3, 1fr);
+     height: auto;
+     width: 100%;
+     gap: 3rem;
+}
+.our-courses-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    border-radius: 1.2rem;
+    border: 0.1rem solid #f1f1f3;
+    padding: 5rem;
+    background-color: #ffffff;
+    
+}
+.our-courses-card-img img{
+    height: 100%;
+    width: 100%;
+}
+.tags-bar{
+    display: flex;
+    gap: 1rem;
+}
+.tag{
+    flex: 1;
+    height: 4.3rem;
+    border-radius: 0.8rem;
+    border: 1px solid #f1f1f3;
+    color: #4C4C4D;
+    line-height: 2.27rem;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.creator-name{
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2.53rem;
+  color: #262626;
+}
+.getItNow-btn{
+    background-color: #F7F7F8;
+    border: 1px solid #F1F1F3;
+    border-radius: 0.8rem;
+    height: 6.3rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.7rem;
 }
 .flex {
   display: flex;
@@ -122,3 +295,4 @@ header.flex {
 .main-image img {
   width: 100%;
 }
+
