@@ -1,4 +1,466 @@
+section.nahhum {
+    background-color: rgb(246, 247, 248);
+}
+
 .section {
-    width: 100%;
+    /* width: 100%; */
     padding: 0px 80px;
+    max-width: 1488px;
+}
+
+.mohammad {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    justify-content: space-around;
+}
+
+.Our-Testimonials,
+.Our-Pricing {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 11vh;
+    margin: 0px;
+}
+
+
+.Our-Testimonials .main-description,
+.Our-Pricing .main-description {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 100px;
+}
+
+.Our-Testimonials .main-description .description,
+.Our-Pricing .main-description .description {
+    margin-right: 90px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    justify-content: space-between;
+}
+
+.Our-Testimonials .main-description p,
+.Our-Pricing .main-description p {
+    color: #262626;
+    font-weight: 600;
+    font-size: 48px;
+    padding: 1vh 0px;
+}
+
+.Our-Testimonials .main-description label,
+.Our-Pricing .main-description label {
+    font-size: 18px;
+    color: #59595A;
+}
+
+.Our-Testimonials .main-description button {
+    background-color: #FCFCFD;
+    border: 1px #F1F1F3 solid;
+    font-size: 18px;
+    color: #262626;
+    padding: 13px 17px;
+    border-radius: 8px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.Testimonials-stories {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.5vw;
+
+}
+
+.Testimonials-stories figure {
+    width: 43vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border: 1px solid #F1F1F3;
+    border-radius: 12px;
+}
+
+.Testimonials-stories figure label {
+    padding: 2.8vw;
+    color: #4C4C4D;
+    font-size: 0.8vw;
+
+}
+
+.Testimonial {
+    display: flex;
+    flex-direction: row;
+    padding: 1.7vw 2.8vw;
+    background-color: #FCFCFD;
+    align-items: center;
+
+}
+
+.Testimonial-details {
+    flex-grow: 2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2vw;
+}
+
+.Testimonial-details img {
+    width: 60px;
+    height: 60px;
+}
+
+.Testimonial-details p {
+    font-size: 0.8vw;
+    color: #333333;
+    font-weight: 600;
+}
+
+.Testimonial button {
+    flex-grow: 1;
+    font-size: 0.8vw;
+    width: 2vw;
+    color: #262626;
+    background-color: #F7F7F8;
+    border-radius: 8px;
+    border: 1px solid #F1F1F3;
+    padding: 1vw 2vw;
+    cursor: pointer;
+}
+
+.Our-Pricing .main-description button {}
+
+section.nahhum {
+    background-color: rgb(246, 247, 248);
+}
+
+.section {
+    /* width: 100%; */
+    padding: 0px 80px;
+    background-color: #f7f7f8;
+}
+
+.daniel {
+    display: flex;
+    flex-direction: column;
+    gap: 15rem;
+}
+
+/*------------------- Benefits -----------------*/
+.section-container {
+    /*Utilities*/
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 8rem;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.section-header {
+    /*Utilities*/
+    display: flex;
+    width: 100%;
+    height: 13.2rem;
+}
+
+.section-description {
+    /*Utilities*/
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.section-description h1 {
+    font-size: 4.8rem;
+    font-weight: 600;
+    color: #262626;
+    line-height: 7.2rem;
+}
+
+.section-description p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #59595a;
+    line-height: 2.7rem;
+}
+
+.section-viewBtn {
+    /*Utilities*/
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.viewBtn {
+    /*Utilities*/
+    width: 12rem;
+    height: 6.3rem;
+    border: 0.1rem solid #f1f1f3;
+    border-radius: 0.8rem;
+    background-color: #fff;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.7rem;
+    text-align: center;
+}
+
+/*-------------- benefits - cards--------------*/
+.benefit-section-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    width: 100%;
+    height: 93rem;
+}
+
+.benefit-card {
+    /*Utilities*/
+    border-radius: 1.2rem;
+    padding: 5rem;
+    gap: 5rem;
+    display: flex;
+    background: #ffffff;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.benefit-card-num {
+    /*Utilities*/
+    font-size: 8rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+}
+
+.card-content {
+    /*Utilities*/
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+.card-content h1 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #333333;
+    line-height: 3.6rem;
+}
+
+.card-content p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #4c4c4d;
+    line-height: 2.7rem;
+}
+
+.benefit-card-arrowBtn {
+    /*Utilities*/
+    width: 5.4rem;
+    height: 5.4rem;
+    padding: 2rem;
+    border-radius: 0.8rem;
+    border: 0.1rem solid #f1f1f3;
+    background-color: #fcfcfd;
+    cursor: pointer;
+}
+
+/*--------------------Our-courses--------------------*/
+.our-courses-section-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: auto;
+    width: 100%;
+    gap: 3rem;
+}
+
+.our-courses-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    border-radius: 1.2rem;
+    border: 0.1rem solid #f1f1f3;
+    padding: 5rem;
+    background-color: #ffffff;
+
+}
+
+.our-courses-card-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.tags-bar {
+    display: flex;
+    gap: 1rem;
+}
+
+.tag {
+    flex: 1;
+    height: 4.3rem;
+    border-radius: 0.8rem;
+    border: 1px solid #f1f1f3;
+    color: #4C4C4D;
+    line-height: 2.27rem;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.creator-name {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.53rem;
+    color: #262626;
+}
+
+.getItNow-btn {
+    background-color: #F7F7F8;
+    border: 1px solid #F1F1F3;
+    border-radius: 0.8rem;
+    height: 6.3rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.7rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+header.flex {
+    font-size: 17px;
+    background-color: rgb(255, 148, 0);
+    color: white;
+    justify-content: center;
+    height: 3vh;
+    align-items: center;
+}
+
+.secondary-header {
+    justify-content: space-around;
+    /*background-color: rgb(246, 247, 248);
+  */
+}
+
+.main-nav-bar {
+    font-size: 20px;
+}
+
+.un-pressed-btn {
+    padding: 10px;
+
+    background-color: rgb(246, 247, 248);
+    border: 0px;
+}
+
+.pressed-btn {
+    background-color: rgb(240, 241, 243);
+    padding: 10px;
+}
+
+.orange {
+    color: rgb(255, 148, 0);
+}
+
+.login-btn {
+    background-color: rgb(255, 148, 0);
+    padding: 10px;
+    border: 0px;
+    font-size: 20px;
+}
+
+.sign-up-btn {
+    background-color: rgb(246, 247, 248);
+    padding: 10px;
+    border: 0px;
+    font-size: 20px;
+}
+
+.hero-content {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    justify-self: center;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+}
+
+.header1 {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 49px;
+    font-weight: 900;
+}
+
+.header2 {
+    text-align: center;
+
+    padding: 10px;
+    font-size: 37px;
+    font-weight: 530;
+}
+
+.header3 {
+    text-align: center;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.explore-btn {
+    gap: 20px;
+    margin-top: 3vw;
+    display: flex;
+    background-color: rgb(246, 247, 248);
+    justify-content: center;
+}
+
+.view-pricing-btn {
+    padding: 10px;
+    font-size: 20px;
+    background-color: white;
+}
+
+.partners-img img {
+    width: 100%;
+}
+
+.partners-img {
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+    width: 90vw;
+}
+
+.main-image {
+    width: 90vw;
+}
+
+.main-image img {
+    width: 100%;
 }
