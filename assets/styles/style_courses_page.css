@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --primary-color: #ff9500;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #f7f7f8;
+  width: 100%;
+}
+.flex-row-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-row-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.first-nav {
+  background-color: var(--primary-color);
+  width: 95vw;
+  padding: 20px;
+  font-size: 18px;
+  color: white;
+  gap: 23px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+a {
+  color: black;
+  font-size: 18px;
+  text-wrap: nowrap;
+}
+.flex-row {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+nav {
+  width: 85vw;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+nav a {
+  font-size: 18px;
+  padding: 14px 20px 14px 20px;
+}
+.opacity {
+  background-color: rgba(0, 0, 0, 0.03);
+  border-radius: 10px;
+}
+.logo {
+  margin-right: 20px;
+}
+.btn {
+  padding: 14px 34px 14px 34px;
+  border-radius: 10px;
+}
+.btn-primary {
+  background-color: var(--primary-color);
+}
+hr {
+  opacity: 0.1;
+  margin-top: 30px;
+}
+main {
+  width: 98vw;
+  margin: 0;
+}
+article.hero {
+  width: 85vw;
+  margin: 100px auto;
+}
+.hero h1 {
+  font-weight: 600;
+  font-size: 48px;
+}
+.hero p {
+  font-size: 18px;
+  opacity: 0.5;
+  width: 69%;
+}
+.hero {
+  gap: 150px;
+}
+.section {
+  width: 85vw;
+  margin: 100px auto;
+  padding: 30px 0;
+  background-color: white;
+}
+.container {
+  padding: 0 60px;
+}
+.title {
+  gap: 60px;
+}
+.title h2 {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.title p {
+  font-size: 18px;
+}
+main .btn {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px 16px 10px 16px;
+  border-radius: 10px;
+}
+.image {
+  width: 40%;
+  height: 40rem;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+}
+figure {
+  gap: 25px;
+  margin-top: 20px;
+  justify-content: center;
+}
+figcaption {
+  margin-top: 30px;
+}
+figcaption span {
+  font-weight: 500;
+  font-size: 20px;
+  opacity: 0.8;
+}
+.curriculum {
+  padding: 30px;
+  margin-top: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.curriculum h1 {
+  font-weight: 800;
+  font-size: 50px;
+}
+.curriculum span {
+  font-weight: 600;
+  font-size: 22px;
+}
+.curriculum p {
+  font-size: 18px;
+}
+.curriculum .flex-row {
+  gap: 50px;
+}
+.curriculum article {
+  width: 20%;
+  padding: 20px;
+  position: relative;
+}
+.curriculum .bef::before {
+  content: "";
+  height: 90%;
+  left: 100%;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  position: absolute;
+}
+footer {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px;
+  width: 89%;
+  position: relative;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+}
+footer span {
+  font-size: 18px;
+}
+.head {
+  font-weight: 600;
+  font-size: 20px;
+}
+.social i {
+  font-size: 30px;
+  padding: 10px;
+}
+.copy-r {
+  position: absolute;
+  bottom: 10px;
+  right: 40%;
+}
+.copy-r span {
+  font-size: 18px;
+}
