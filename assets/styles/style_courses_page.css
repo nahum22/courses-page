@@ -18,6 +18,11 @@ body {
   justify-content: center;
   align-items: center;
 }
+.flex-row-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .first-nav {
   background-color: var(--primary-color);
   width: 95vw;
@@ -30,6 +35,8 @@ body {
 }
 a {
   color: black;
+  font-size: 18px;
+  text-wrap: nowrap;
 }
 .flex-row {
   display: flex;
@@ -53,7 +60,7 @@ nav a {
 .logo {
   margin-right: 20px;
 }
-.Sign-Up a {
+.btn {
   padding: 14px 34px 14px 34px;
   border-radius: 10px;
 }
@@ -65,7 +72,12 @@ hr {
   margin-top: 30px;
 }
 main {
+  width: 98vw;
+  margin: 0;
+}
+article.hero {
   width: 85vw;
+  margin: 100px auto;
 }
 .hero h1 {
   font-weight: 600;
@@ -77,6 +89,103 @@ main {
   width: 69%;
 }
 .hero {
-  margin-top: 100px;
   gap: 150px;
+}
+.section {
+  width: 85vw;
+  margin: 100px auto;
+  padding: 30px 0;
+  background-color: white;
+}
+.container {
+  padding: 0 60px;
+}
+.title {
+  gap: 60px;
+}
+.title h2 {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.title p {
+  font-size: 18px;
+}
+main .btn {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px 16px 10px 16px;
+  border-radius: 10px;
+}
+figure img {
+  width: 478.67px;
+  height: 422px;
+}
+figure {
+  gap: 25px;
+  margin-top: 20px;
+  justify-content: center;
+}
+figcaption {
+  margin-top: 30px;
+}
+figcaption span {
+  font-weight: 500;
+  font-size: 20px;
+  opacity: 0.8;
+}
+.curriculum {
+  padding: 30px;
+  margin-top: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.curriculum h1 {
+  font-weight: 800;
+  font-size: 50px;
+}
+.curriculum span {
+  font-weight: 600;
+  font-size: 22px;
+}
+.curriculum p {
+  font-size: 18px;
+}
+.curriculum .flex-row {
+  gap: 50px;
+}
+.curriculum article {
+  width: 20%;
+  padding: 20px;
+  position: relative;
+}
+.curriculum .bef::before {
+  content: "";
+  height: 90%;
+  left: 100%;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  position: absolute;
+}
+footer {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px;
+  width: 88%;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+}
+footer span {
+  font-size: 18px;
+}
+.head {
+  font-weight: 600;
+  font-size: 20px;
+}
+.social i {
+  font-size: 30px;
+  padding: 10px;
 }
