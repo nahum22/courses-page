@@ -176,6 +176,7 @@ footer {
   align-items: center;
   padding: 100px;
   width: 89%;
+  position: relative;
 }
 .flex-column {
   display: flex;
@@ -193,4 +194,12 @@ footer span {
 .social i {
   font-size: 30px;
   padding: 10px;
+}
+.copy-r {
+  position: absolute;
+  bottom: 10px;
+  right: 40%;
+}
+.copy-r span {
+  font-size: 18px;
 }
