@@ -17,7 +17,7 @@ html {
 }
 
 body {
-    width: 100vw;
+    /* width: 100vw; */
     height: 100vh;
     font-weight: 400;
     line-height: 1.6;
